@@ -33,7 +33,7 @@ YYYY
 
 <a name="p1"></a>
 
-## 1. Introduzione
+## 1. Introduction
 
 <a name="sp1.1"></a>
 
@@ -54,53 +54,27 @@ Il documento in atto viene redatto al fine di *definire* i requisiti e gli obiet
 
 ### 1.3 References 
 
-<a name="paragraph2"></a>
+<a name="p2"></a>
 
-## 2. Descrizione generale del sistema
+## 2. System Description
+<a name="sp2.15"></a>
 
-Il test del software è il processo di identificazione della correttezza e della qualità dei programmi software. 
-Nel nostro caso, ossia Black Box Testing, il test viene eseguito senza conoscere la struttura interna del programma.
-Il tester è a conoscenza di ciò che il software dovrebbe fare ma non è a conoscenza di come lo fa. Ad esempio, il tester è consapevole che un particolare input restituisce un determinato output invariabile, ma non è a conoscenza di come il software produce l'output in primo luogo.
-I test vengono generati a partire dalle specifiche del software.
+### 2.1 Context and Motivation
 
-<a name="subparagraph5"></a>
+<a name="sp2.2"></a>
 
-### 2.1 Contesto e motivazioni 
-
-I test possono essere eseguiti in molti modi diversi, per esempio se un software prende in input un numero intero all'interno di un certo range, si potrebbe testare l'intero range di numeri oppure solamente i valori agli estremi dell'intervallo.
-Scrivere test manualmente richiede molto tempo, sono possibili errori anche in fase di testing.
-Si stima che la metà del costo di sviluppo software sia dedicato al testing, essendo una delle fasi più importanti: rilasciare un software con errori al proprio interno potrebbe causare problemi di gravità proporzionata allo scopo del software stesso (es. nei sistemi safety-critical le conseguenze di un errore potrebbe essere anche la perdita di vite umane). 
-Implementando test Black Box si avrà  la sicurezza di aver dato il massimo nella ricerca degli errori all'interno del sistema.
-
-<a name="subparagraph6"></a>
-
-### 2.2 Obiettivo del progetto
-
-L’obiettivo é quello di sviluppare un software per la generazione di test automatici per sistemi reattivi, cioé sistemi ai quali applicando un input questi forniscono una risposta. 
-Si sfrutta la rappresentazione NBA per la descrizione delle specifiche del sistema, la logica Booleana per poter generare dei test e le tecniche di ragionamento per la loro correttezza, con lo scopo di fornire uno strumento di verifica della risposta dei BBS, con elevata affidabilità.
+### 2.2 Project Obectives 
 
 <a name="subparagraph7"></a>
 
-### 2.3 Utenti
+## 3. Requirements
 
-Individuati 2 gruppi principali:
-* Tester di sistemi reattivi
-	* Queste figure utilizzano il software nell'ambito dei sistemi reattivi alla ricerca di errori negli stessi. Hanno necessità di testare software Black Box per verificare che questi rispettino le specifiche date, con una certa confidenza. 
-* Analisti software per il RSDD
-	* Il paradigma di sviluppo RSDD ha lo scopo di costruire un sistema a partire dai requisiti da soddisfare. Figure come quelle degli analisti software lo seguono, generando test su test per verificare che i sistemi che stanno costruendo soddisfino tutti i requisiti. Questi utenti hanno quindi l’esigenza di generare test per verificare se i sistemi che vogliono utilizzare rispettano determinati requisiti e con quale grado di fiducia.
-
-<a name="paragraph3"></a>
-
-## 3. User Requirement
-
-In questa sezione descriveremo i requisiti dell’applicazione lato utente, assegnando ad ognuno un’id e una priorità seguendo la tabella sotto.
-	
 | Priorità | Significato | 
 | --------------- | ----------- | 
-| M | **Mandatory:** Requisito obbligatorio |
-| D | **Desiderable:** Requisito che dovrebbe essere inserito nel sistema, a meno che il costo per implementarla non sia troppo alto.|
-| O | **Optional:** Una funzionalità marcata con O può essere inserita nel sistema, a discrezione del manager del progetto. Ad esempio se il tempo di sviluppo è minore di quello previsto oppure se il costo per implementarla non è troppo alto. |
-| E | **future Enhancement:** Questo requisito viene lasciato per la prossima release. |
+| M | **Mandatory:**   |
+| D | **Desiderable:** |
+| O | **Optional:**    |
+| E | **future Enhancement:** |
 
 
 **Requisiti funzionali**
