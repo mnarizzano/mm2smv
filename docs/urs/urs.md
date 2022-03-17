@@ -18,61 +18,41 @@ YYYY
 # Table of Contents
 
 1. [Introduction](#p1)
-	1. [Scope of the document](#sp1.1)
+	1. [Scope](#sp1.1)
 	2. [Definitios and Acronym](#sp1.2) 
 	3. [References](#sp1.3)
 2. [Project](#p2)
 	1. [Context and Motivation](#sp2.1)
 	2. [Project Objectives](#sp2.2)
 3. [Requirement](#p3)
-  1. [Stakeholders](#sp3.1)
-  2. [Functional Requirements](#sp3.2)
-  3. [Non-Functional Requirements](#sp3.3)
+ 	1. [Stakeholders](#sp3.1)
+ 	2. [Functional Requirements](#sp3.2)
+ 	3. [Non-Functional Requirements](#sp3.3)
   
   
 
-<a name="introduzione"></a>
+<a name="p1"></a>
 
 ## 1. Introduzione
 
-<a name="subparagraph1"></a>
+<a name="sp1.1"></a>
 
-### 1.1 Scopo del documento
+### 1.1 Scope
 
 Il documento in atto viene redatto al fine di *definire* i requisiti e gli obiettivi di un software di testing per BBS. Il quale verrà implementato durante il corso di Ingegneria del Software. Il documento verrà consulatato sia dagli sviluppatori, in corso d'opera, come riferiemento principale per i requisiti del sistema, che dagli utenti del sistema per capirne il fuzinamento. 
 
-<a name="subparagraph2"></a>
+<a name="sp1.2"></a>
 
-### 1.2 Ambito Applicativo del documento
+### 1.2 Definitios and Acronym
 
-Il presente documento ha lo scopo di descrivere il modello di software a cui si farà riferimento per l'implementazione dei test di BBS. In particolare il documento è stato organizzato come segue: 
-1. Redazione e revisione di tutti i contents del documento.
-2. Approfondimento sui requisiti funzionali e non funzionali. Una chiara distinzione tra i due è stata fatta nella sezione dedicata agli user requirement (UR).
-3. Discussione dei requisiti con il cliente e revisione di essi dal team di sviluppatori. 
-4. Stesura finale del Documento.
 
-<a name="subparagraph3"></a>
-
-### 1.3 Definizioni e Acronimi
-
-| Acronimo - Nome  						| Definizione | 
+| Acronym				| Definition | 
 | ------------------------------------- | ----------- | 
-| BBS                                   | Black Box System  |
-| RSDD                                  | Requirement Specification Driven Development |
 | NBA                                   | Non deterministic Buchi Automata |
-| WFF					| Well Formed Formula |
-| DOT									| è un linguaggio utilizzato per descrivere i grafi. Utilizza l'estensione *.gv* oppure *.dot*. Cliccare [qui](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) per approfondire.
-| CNF									| Conjunctive Normal Form |
-| DIMACS								| è un formato di file utilizzato per definire un'espressione booleana, scritta in CNF. Utilizza l'estensione *.cnf*. cliccare [qui](https://people.sc.fsu.edu/~jburkardt/data/cnf/cnf.html) per approfondire.  |
-| SMT									| [Satisfiability modulo theories](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories). Attualmente esistono diversi SMT solver e la maggior parte utilizza il linguaggio [SMT-LIB](http://smtlib.cs.uiowa.edu/). |
-| Test | Una sequenza di valori delle variabili di input e output |
 
-<a name="subparagraph4"></a>
+<a name="sp1.3"></a>
 
-### 1.4 Bibliografia
-* A. Montanari [Linguaggi Formali, Automi e Logiche](https://users.dimi.uniud.it/~angelo.montanari/automi.pdf). Dipartimento di Matematica, Informatica e Fisica, Università di Udine.
-* AA. VV. [Testing e generazione automatica di test](https://www.cluster-prossimo.it/wp-content/uploads/2019/07/deliverable_3_3.pdf). Progetto PROSSIMO, Sardegna Ricerche.
-* M. Narizzano, L. Pulina, A. Tacchella, S. Vuotto [Automated Requirements-Based Testing of Black-Box Reactive Systems](https://arxiv.org/pdf/2005.06750.pdf). DIBRIS, università di Genova e Dipartimento di chimica e farmacia, università di Sassari.
+### 1.3 References 
 
 <a name="paragraph2"></a>
 
