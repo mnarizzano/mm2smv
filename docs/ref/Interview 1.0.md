@@ -1,4 +1,4 @@
-*Stakeholder*: Client
+**Stakeholder**: Client
 *Date* : XXXX
 *Author*: XXXX
 
