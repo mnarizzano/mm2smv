@@ -4,14 +4,18 @@
 
 **Q1** : Is this what you expect?
 
-**Q2** : Which kind of applications would you like me to develop? Desktop? Web based? App?
+**Q1.1**: What is the problem? Why do you need such system?
 
-**Q3** : Which are the functionality of the GUI? Load/Save....
+**Q2** : Which are the input formats? (mm)
+
+**Q3** : Which are the output formats? (smv)
+
+**Q4** : Which kind of applications would you like me to develop? Desktop? Web based? App?
 
 **Q4** : Which OS?
 
-**Q5** : Would you like also a GUI for the SMV file? Which are the functionality of the GUI?  
-
-**Q6** : Are There any formats storing MM?
+**Q5** : Would you like also a GUI for the SMV file? Which are the functionality of the GUI? NO!
 
 **Q7** : Does we need sto interact with a database? Does there exists one?
+
+
