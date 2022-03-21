@@ -19,3 +19,11 @@
 13. **A6**: You can fine more information in the link above.
 14. **Q7**: Do you need a GUI to depict the MM?
 15. **A7**: Well, not at the beginning. This could be a thing that can be added later on.
+16. **Q8**: Which kind of applications would you like me to develop? Desktop? Web based? App?
+17. **A8**: At the begininng a desktop application should be fine
+18. **Q9**: Which OS?
+19. **A9**: Flexible. We prefer Linux based, then Windows and may be MacOS. Eventually a web based application could be a good thing, don'you think?
+20. **Q10**: Would you like also a GUI for the SMV file? Which are the functionality of the GUI? 
+21. **A10**: NO!
+22. **Q11**: Does the application need to interact with a database? Does there exists one?
+23. **A11**: We don't need one and, no we don't have one. 
