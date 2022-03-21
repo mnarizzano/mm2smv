@@ -3,17 +3,17 @@
 ##### DIBRIS – Università di Genova. Scuola Politecnica, Software Engineering Course 80154
 
 
-**VERSION : X.X**
+**VERSION : 1.0**
 
 **Authors**  
-XXXX
-YYYY
+Massimo Narizzano
+All the students of the Software Engineering Course A.A. 2021/2022
 
 **REVISION HISTORY**
 
 | Version    | Date        | Authors      | Notes        |
 | ----------- | ----------- | ----------- | ----------- |
-| X.X |  | |  |
+| 1.0 | 21/4/2022 |M. Narizzano | First Draft |
 
 # Table of Contents
 
@@ -34,10 +34,12 @@ YYYY
 <a name="p1"></a>
 
 ## 1. Introduction
+The present document describe the functional and non-functional requirements of a system that wants to translate a file describing a Mealy Machine into a file SMV. 
 
 <a name="sp1.1"></a>
 
 ### 1.1 Document Scope
+This document wants to introduce the Requirement Analysis in Software Engineering for the course of Software Engineering at Laurea Magistrale in Computer Engineering in Genova. 
 
 
 <a name="sp1.2"></a>
@@ -48,6 +50,11 @@ YYYY
 | Acronym				| Definition | 
 | ------------------------------------- | ----------- | 
 | NBA                                   | Non deterministic Buchi Automata |
+| LTL                                   | Linear Temporal Logic |
+| MM                                    | Mealy Machine |
+| SMV                                   | Symbolic Model Verifier |
+| NuSMV                                 | New Symbolic Model Verifier |
+
 
 <a name="sp1.3"></a>
 
