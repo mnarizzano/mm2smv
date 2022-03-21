@@ -9,8 +9,13 @@
 3. **Q2**: How is the format of a file describing a Mealy Machine? Do you have one?
 4. **A2**: Well, yes I gave you an example of it and you can find an example file in the references that I gave you. See for example the file 
 [MM1](MM1.png) or the one to the [MM2](https://easyexamnotes.com/p/mealy-machine.html)
-6. **Q3**:  
-
-2. **Q2**: How is written an SMV file?
-3. **Q3**: 
-4. **Q3**: Which language is SMV?
+6. **Q3**: What does a MM represent?
+7. **A3**: Usually represent a reactive system.
+8. **Q4**: What is a reactive system?
+9. **A4**: Reactive systems have an ongoing interaction with their environment. MM is a formalism to model Finite State Reactive Systems. For example Hardware system, Concurrent and Distribuited Algorithm.... 
+10. **Q5**: What is a SMV file?
+11. **A5**: SMV stands for Symbolic Model Verifier, and it is a language that helps to model a Finite State Reactive System. You can find more infomation to the home page of [NuSMV](https://nusmv.fbk.eu/NuSMV/userman/v11/html/nusmv_2.html)
+12. **Q6**: Do you have any example? 
+13. **A6**: You can fine more information in the link above.
+14. **Q7**: Do you need a GUI to depict the MM?
+15. **A7**: Well, not at the beginning. This could be a thing that can be added later on.
