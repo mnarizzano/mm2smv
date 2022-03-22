@@ -1,4 +1,5 @@
-**TODO : Please modify this file according to the following**
+In this directory we put all the information gathered by all the stakeholder. We also noted all the meeting with client. Here is the list of files:
 
-In this directory are references for the document compilation. For example a list of questions and answers can be stored in this directory.
-In this file for each resource a small description must be provided.
+- InterviewX report some of the meetings between the client and the Requirement Analyst
+- MM1.png is an example di Mealy Machine
+- Clientdoc.md contains the information that the client provided us
