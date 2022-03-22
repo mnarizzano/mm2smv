@@ -91,11 +91,32 @@ Goal of the project is to develop a translator from a mealy machine to a kripke 
 
 | ID | Descrizione | Priorità |
 | --------------- | ----------- | ---------- | 
-| 1.0 |  XXXXX |M|
+| 1.0 | The system takes in input a Mealy Machine |M|
+| 2.0 | The system Outputs a SMV file |M|
+| 3.0 | The Mealy Machine shall be defined with six different informations|M|
+| 3.0 | The Mealy Machine shall contains a set of States |M|
+| 3.0 | The Mealy Machine shall contains is a set of input-symbols/alphabet|M|
+| 3.0 | The Mealy Machine shall contains is a set of input-symbols/alphabet|M|
+| ... | ..........|M|
+| 4.0 | The system shall translate an input  Mealy Machine into a SMV file |M|
+| 4.0 | The system shall provide a GUI for drawing MM picture |E|
+| 4.0 | The system shall provide a GUI for modifying the SMV file |E|
+
+
+
+
+
 
 <a name="sp3.3"></a>
 ### 3.2 Non-Functional Requirements 
  
 | ID | Descrizione | Priorità |
 | --------------- | ----------- | ---------- | 
-| 1.0 | XXXXX |M|
+| 1.0 |The output of the systems can be parse correctly by NuSMV |M|
+| 1.0 |The system must be provided as  desktop application |M|
+| 1.0 |The system must be provided as web based application |E|
+| 1.0 |The system must run on Linux based  OS |M|
+| 1.0 |The system must run on Windows based OS |E|
+| 1.0 |The system must run on MACOS based OS |E|
+
+
