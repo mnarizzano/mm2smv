@@ -1,5 +1,6 @@
 # MM2SMV CONVERTER
-### On-.Going Project of Software Engineering Course at Computer Engineering Laurea(Unige) 
+## From a Mealy Machine to a (Nu)SMV model 
+###### On-.Going Project of Software Engineering Course at Computer Engineering Laurea(Unige) 
 #### Project Description
 In computer science(in particular in Artificial Intelligence), model checking is a method for checking whether a finite-state model of a system meets a given specification. In model checking we need a model of the system and a property written in some logic and a tool called model checker that checks if the model satisfy the property.
 
