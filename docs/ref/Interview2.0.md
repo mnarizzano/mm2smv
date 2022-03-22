@@ -1,12 +1,16 @@
-**Authors** 
-....
+**Stakeholder**: Client
 
+**Date** : 18/03/22
+
+Author: XXXX
 
 **Q1** : Is this what you expect?
 
 **A1**: No.
 
 **Q1.1**: What is the problem? Why do you need such system?
+
+**A1.1**: In model checking we check if a model of the system satisfy a given property written in some logic. We use [NuSMV]( ) as a tool for checking properties. We have some system models that describe Reactive Systems described with Mealy Machine Formalism, but NuSMV takes in input Kripke Structure Finite State Machine in SMV format.
 
 **Q2** : Which are the input formats? (mm)
 
