@@ -14,7 +14,10 @@ All the students of the Software Engineering Course A.A. 2021/2022
 
 | Version    | Date        | Authors      | Notes        |
 | ----------- | ----------- | ----------- | ----------- |
-| 1.0 | 21/4/2022 |M. Narizzano | First Draft |
+| 1.0 | 21/3/2022 |M. Narizzano | First Draft |
+| 1.1 | 28/3/2022 |M. Narizzano | Second Draft |
+| 1.3 | 11/4/2022 |M. Narizzano | Final Draft |
+
 
 # Table of Contents
 
