@@ -40,7 +40,7 @@ The present document describe the functional and non-functional requirements of 
 <a name="sp1.1"></a>
 
 ### 1.1 Document Scope
-This document wants to introduce the Requirement Analysis in Software Engineering for the course of Software Engineering at Laurea Magistrale in Computer Engineering in Genova. 
+This document introduces the Requirement Analysis in Software Engineering for the course of Software Engineering at Laurea Magistrale in Computer Engineering in Genova. 
 
 
 <a name="sp1.2"></a>
@@ -68,7 +68,7 @@ This document wants to introduce the Requirement Analysis in Software Engineerin
 
 ### 2.1 Context and Motivation
 <a name="sp2.2"></a>
-In computer science(in particular in Artificial Intelligence), model checking is a method for checking whether a finite-state model of a system meets a given specification. In model checking we need a model of the system and a property written in some logic and a tool called model checker that checks if the model satisfy the property. One of the most used model checker is NuSMV, a model checker that takes in input a finite state machine in a language called SMV and a property written in Linear Temporal Logic (LTL), or Computational Tree Logic. The model written in SMV usually define a Kripke Structure a type of Finite State Machine. However one of the most used languages for defining Reactive Systems are the Mealy Machines. So if you want to use NuSMV to model check the SMV against some LTL property you need a converter from a file representing a Mealy Machine to a SMV file.
+In computer science (in particular in Artificial Intelligence), model checking is a method for checking whether a finite-state model of a system meets a given specification. In model checking given a system model and a formal property the model chercker checks if the model satisfy the property. NuSMV is one of the most used model checker and it takes in input a finite state machine in a language called SMV and a formal property written in Linear Temporal Logic (LTL), or Computational Tree Logic. The model written in SMV usually define a Kripke Structure a type of Finite State Machine. However one of the most used languages for defining Reactive Systems are the Mealy Machines. So in order to use NuSMV to model check a mealy machine against some LTL property we need to translate the mealy machine into a a SMV file.
 
 ### 2.2 Project Obectives 
 <a name="p3"></a>
@@ -91,20 +91,14 @@ Goal of the project is to develop a translator from a mealy machine to a kripke 
 
 | ID | Descrizione | Priorità |
 | --------------- | ----------- | ---------- | 
-| 1.0 | The system takes in input a Mealy Machine |M|
-| 2.0 | The system Outputs a SMV file |M|
-| 3.0 | The Mealy Machine shall be defined with six different informations|M|
-| 3.0 | The Mealy Machine shall contains a set of States |M|
-| 3.0 | The Mealy Machine shall contains is a set of input-symbols/alphabet|M|
-| 3.0 | The Mealy Machine shall contains is a set of input-symbols/alphabet|M|
-| ... | ..........|M|
-| 4.0 | The system shall translate an input  Mealy Machine into a SMV file |M|
-| 4.0 | The system shall provide a GUI for drawing MM picture |E|
-| 4.0 | The system shall provide a GUI for modifying the SMV file |E|
-
-
-
-
+| 1.0 | The system shall take in input a Mealy Machine definition in graphviz format|M|
+| 2.0 | The system shall take in input a Mealy Machine definition in Klee format|D|
+| 3.0 | The Mealy Machine shall takes as input a set of input-symbols/alphabet|M|
+| 4.0 | The Mealy Machine shall takes as input a set of output-symbols/alphabet|M|
+| 5.0 | The system shall output a SMV file |M|
+| 6.0 | The system shall translate an input  Mealy Machine into a SMV file |M|
+| 7.0 | The system shall provide a GUI for drawing MM picture |E|
+| 8.0 | The system shall provide a GUI for modifying the SMV file |E|
 
 
 <a name="sp3.3"></a>
@@ -112,7 +106,7 @@ Goal of the project is to develop a translator from a mealy machine to a kripke 
  
 | ID | Descrizione | Priorità |
 | --------------- | ----------- | ---------- | 
-| 1.0 |The output of the systems can be parse correctly by NuSMV |M|
+| 1.0 |The output of the systems shall be parsed correctly by NuSMV |M|
 | 1.0 |The system must be provided as  desktop application |M|
 | 1.0 |The system must be provided as web based application |E|
 | 1.0 |The system must run on Linux based  OS |M|
