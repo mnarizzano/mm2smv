@@ -95,7 +95,7 @@ Goal of the project is to develop a translator from a mealy machine to a kripke 
 | ID | Descrizione | Priorità |
 | --------------- | ----------- | ---------- | 
 | 1.0 | The system shall take in input a Mealy Machine definition in graphviz format|M|
-| 1.1 | The system shall take in input a Mealy Machine definition in custom format|M|
+| 1.1 | The system shall take in input a Mealy Machine definition in custom format|D|
 | 2.0 | The system shall take in input a Mealy Machine definition in HOA format|D|
 | 3.0 | The Mealy Machine shall takes as input a set of input-symbols/alphabet|M|
 | 4.0 | The Mealy Machine shall takes as input a set of output-symbols/alphabet|M|
