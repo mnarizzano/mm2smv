@@ -1,3 +1,9 @@
+---
+title: "My Report"
+output: 
+  html_document:
+    number_sections: true
+---
 # MM2SMV CONVERTER
 
 ## Design Requirement Specification Document
