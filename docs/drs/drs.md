@@ -37,29 +37,38 @@ Version | Data | Authir(s)| Notes
 
 
 ## <a name="intro"></a> 1 Introduction 
+
 ### <a name="purpouse"></a> 1.1 Purpouse
-<details>
-    <p>Something</p>
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
 </details>
 
-### <a name="def"></a> 1.2Definitions
-<details>
-    
+### <a name="def"></a> 1.2 Definitions
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
-    
 </details>
 
 ### <a name="overview"></a> 1.3 Document Overview
-<details>
-   <p>Something</p>
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
 </details>
 
 ### <a name="biblio"></a> 1.4 Bibliography
-<details>
- <p>Something</p>
+<details> 
+    <summary> Put a summary of the section
+        
+    </summary>
+    <p>This sub section should describe ...</p>
 </details>
 
 ## <a name="description"></a> 2 Project Description
