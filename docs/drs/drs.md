@@ -41,14 +41,17 @@ Version | Data | Authir(s)| Notes
 <details>
     <p>Something</p>
 </details>
+
 ### Definitions
 <details>
     <p>Something</p>
 </details>
+
 ### Document Overview
 <details>
    <p>Something</p>
 </details>
+
 ### Bibliography
 <details>
  <p>Something</p>
