@@ -1,4 +1,4 @@
-# MM2SMV CONVERTER
+# Title of the project
 
 ## Design Requirement Specification Document
 
@@ -102,30 +102,76 @@ Version | Data | Authir(s)| Notes
 </details>
 
 ## <a name="interfaces"></a>  3 Interfaces
-<details> 
+<<details> 
     <summary> Put a summary of the section
     </summary>
     <p>This sub section should describe ...</p>
 </details>
 
 ## <a name="data"></a>  4 Data Stores
-
-## <a name="uc"></a> 5 Use Cases 
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This section should describe ...</p>
+</details>
+## <a name="uc"></a> 5 Use Cases
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This section should describe ...</p>
+</details>
 ### <a name="uc1"></a> 5.1  Use Case 1
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
 ### <a name="uc2"></a> 5.2  Use Case 2
-### ....
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
 
 ## <a name="structural"></a> 6 Structural Models
 
 ### <a name="cd"></a> 6.1 Class Diagram
 
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
+
 #### <a name="cd-description"></a> 6.1.1 Class Description
+
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
 
 ### <a name="od"></a>  6.2 Object Diagram
 
-## <a name="dynamic"></a> 7 Dynamic Models
-### <a name="ur1"></a> 7.1 User Requirement 1
-### <a name="ur2"></a> 7.2 User Requirement 2
-### ....
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
 
+## <a name="dynamic"></a> 7 Dynamic Models
+
+### <a name="ur1"></a> 7.1 User Requirement 1
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
+
+### <a name="ur2"></a> 7.2 User Requirement 2
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
 
