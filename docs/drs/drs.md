@@ -41,13 +41,13 @@ Version | Data | Authir(s)| Notes
     2. [User Requirement 2](#req2)
     3. .....
 
-## Introduction
+<details><summary>## 1.0 Introduction </summary> 
 
 ### Purpouse
 ### Definitions
 ### Document Overview
 ### Bibliography
-
+</details>
 ## Project Description
 ### Project Introduction 
 ### System Architecture
