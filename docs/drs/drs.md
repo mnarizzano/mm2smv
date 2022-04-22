@@ -40,8 +40,7 @@ Version | Data | Authir(s)| Notes
     3. .....
 
 
-## <details> <summary>1 Introduction </summary> <a name="intro"></a>
-    <p> The design specification reflects the design and provides directions to the builders and coders of the product. Through this document, designers communicate the design for the product to which the builders or coders must comply. The design specification should state how the design will meet the requirements. 
+## <details><summary>1 Introduction </summary> <a name="intro"></a> <p> The design specification reflects the design and provides directions to the builders and coders of the product. Through this document, designers communicate the design for the product to which the builders or coders must comply. The design specification should state how the design will meet the requirements. 
     </p>
 </details>
     
