@@ -40,8 +40,8 @@ Version | Data | Authir(s)| Notes
     1. [User Requirement 1](#req1)
     2. [User Requirement 2](#req2)
     3. .....
-
-<details><summary>## 1.0 Introduction </summary> 
+## 1.0 Introduction 
+<details>
 
 ### Purpouse
 ### Definitions
