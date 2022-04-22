@@ -13,7 +13,7 @@ Version | Data | Authir(s)| Notes
 ---------|------|--------|------
 1 | XX/YY/ZZ | AA <br> BB | First Versionn of the document. Document Template
 
-## Index 
+## Table of Content
 
 1. [Introduction](#intro)
     1. [Purpouse](#purpouse)  
@@ -27,8 +27,8 @@ Version | Data | Authir(s)| Notes
 3. [Interfaces](#interfacce)
 4. [Data Stores](#data)
 5. [Use Cases](#uc)
-    1. [Use Case 1] (#uc1)
-    2. [Use Case 2] (#uc2)
+    1. [Use Case 1](#uc1)
+    2. [Use Case 2](#uc2)
     3. ...
 7. [Structural Models](#structural)
     1. [Class Diagram](#cd)
@@ -78,7 +78,7 @@ Version | Data | Authir(s)| Notes
 
 ## <a name="description"></a> 2 Project Description
 
-### <a name="project-intro"></a> Project Introduction 
+### <a name="project-intro"></a> 2.1 Project Introduction 
 <details> 
     <summary> Put a summary of the section
     </summary>
@@ -86,7 +86,7 @@ Version | Data | Authir(s)| Notes
 </details>
 
 
-### <a name="architecture"></a> System Architecture
+### <a name="architecture"></a> 2.2 System Architecture
 
 <details> 
     <summary> Put a summary of the section
@@ -94,38 +94,38 @@ Version | Data | Authir(s)| Notes
     <p>This sub section should describe ...</p>
 </details>
 
-### <a name="constraint"></a> Assumptions and Constraints
+### <a name="constraint"></a> 2.3 Assumptions and Constraints
 <details> 
     <summary> Put a summary of the section
     </summary>
     <p>This sub section should describe ...</p>
 </details>
 
-## <a name="interfaces"></a>  Interfaces
+## <a name="interfaces"></a>  3 Interfaces
 <details> 
     <summary> Put a summary of the section
     </summary>
     <p>This sub section should describe ...</p>
 </details>
 
-## <a name="data"></a>  Data Stores
+## <a name="data"></a>  4 Data Stores
 
-## <a name="uc"></a> Use Cases 
-### <a name="uc1"></a>  Use Case 1
-### <a name="uc2"></a>  Use Case 2
+## <a name="uc"></a> 5 Use Cases 
+### <a name="uc1"></a> 5.1  Use Case 1
+### <a name="uc2"></a> 5.2  Use Case 2
 ### ....
 
-## <a name="structural"></a> Structural Models
+## <a name="structural"></a> 6 Structural Models
 
-### <a name="cd"></a> Class Diagram
+### <a name="cd"></a> 6.1 Class Diagram
 
-#### <a name="cd-description"></a> Class Description
+#### <a name="cd-description"></a> 6.1.1 Class Description
 
-### <a name="od"></a>  Object Diagram
+### <a name="od"></a>  6.2 Object Diagram
 
-## <a name="dynamic"></a> Dynamic Models
-### <a name="ur1"></a> User Requirement 1
-### <a name="ur2"></a> User Requirement 2
+## <a name="dynamic"></a> 7 Dynamic Models
+### <a name="ur1"></a> 7.1 User Requirement 1
+### <a name="ur2"></a> 7.2 User Requirement 2
 ### ....
 
 
