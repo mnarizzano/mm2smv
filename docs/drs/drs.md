@@ -43,12 +43,15 @@ Version | Data | Authir(s)| Notes
 </details>
 ### Definitions
 <details>
+    <p>Something</p>
 </details>
 ### Document Overview
 <details>
+   <p>Something</p>
 </details>
 ### Bibliography
 <details>
+ <p>Something</p>
 </details>
 
 ## Project Description
