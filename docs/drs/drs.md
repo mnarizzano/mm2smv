@@ -102,7 +102,7 @@ Version | Data | Authir(s)| Notes
 </details>
 
 ## <a name="interfaces"></a>  3 Interfaces
-<<details> 
+<details> 
     <summary> Put a summary of the section
     </summary>
     <p>This sub section should describe ...</p>
@@ -114,18 +114,21 @@ Version | Data | Authir(s)| Notes
     </summary>
     <p>This section should describe ...</p>
 </details>
+
 ## <a name="uc"></a> 5 Use Cases
 <details> 
     <summary> Put a summary of the section
     </summary>
     <p>This section should describe ...</p>
 </details>
+
 ### <a name="uc1"></a> 5.1  Use Case 1
 <details> 
     <summary> Put a summary of the section
     </summary>
     <p>This sub section should describe ...</p>
 </details>
+
 ### <a name="uc2"></a> 5.2  Use Case 2
 <details> 
     <summary> Put a summary of the section
