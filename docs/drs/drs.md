@@ -1,9 +1,3 @@
----
-title: "My Report"
-output: 
-  html_document:
-    number_sections: true
----
 # MM2SMV CONVERTER
 
 ## Design Requirement Specification Document
@@ -40,14 +34,22 @@ Version | Data | Authir(s)| Notes
     1. [User Requirement 1](#req1)
     2. [User Requirement 2](#req2)
     3. .....
-## 1.0 Introduction 
-<details>
 
+
+## 1.0 Introduction 
 ### Purpouse
-### Definitions
-### Document Overview
-### Bibliography
+<details>
 </details>
+### Definitions
+<details>
+</details>
+### Document Overview
+<details>
+</details>
+### Bibliography
+<details>
+</details>
+
 ## Project Description
 ### Project Introduction 
 ### System Architecture
