@@ -41,7 +41,12 @@ Version | Data | Authir(s)| Notes
 
 
 ## <a name="intro"></a> 1 Introduction 
-
+<details> 
+    <summary> The design</summary>
+    <p> The design specification reflects the design and provides directions to the builders and coders of the product. Through this document, designers communicate the design for the product to which the builders or coders must comply. The design specification should state how the design will meet the requirements. 
+    </p>
+    </detaiils>
+    
 ### <a name="purpouse"></a> 1.1 Purpouse
 <details> 
     <summary> Put a summary of the section
