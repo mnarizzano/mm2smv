@@ -50,10 +50,12 @@ Version | Data | Authir(s)| Notes
     <summary> Put a summary of the section
     </summary>
     <p>This sub section should describe ...</p>
+    
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
+    
 </details>
 
 ### <a name="overview"></a> 1.3 Document Overview
