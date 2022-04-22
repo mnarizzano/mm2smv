@@ -39,6 +39,7 @@ Version | Data | Authir(s)| Notes
 ## 1.0 Introduction 
 ### Purpouse
 <details>
+    <p>Something</p>
 </details>
 ### Definitions
 <details>
