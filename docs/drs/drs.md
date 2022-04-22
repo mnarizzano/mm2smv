@@ -44,12 +44,12 @@ Version | Data | Authir(s)| Notes
 
 ### Definitions
 <details>
-    <p>
+    
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
-    </p>
+    
 </details>
 
 ### Document Overview
