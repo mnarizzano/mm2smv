@@ -36,13 +36,13 @@ Version | Data | Authir(s)| Notes
     3. .....
 
 
-## <a name="intro"></a> 1.0 Introduction 
-### Purpouse
+## <a name="intro"></a> 1 Introduction 
+### <a name="purpouse"></a> 1.1 Purpouse
 <details>
     <p>Something</p>
 </details>
 
-### Definitions
+### <a name="def"></a> 1.2Definitions
 <details>
     
 | First Header  | Second Header |
@@ -52,20 +52,21 @@ Version | Data | Authir(s)| Notes
     
 </details>
 
-### Document Overview
+### <a name="overview"></a> 1.3 Document Overview
 <details>
    <p>Something</p>
 </details>
 
-### Bibliography
+### <a name="biblio"></a> 1.4 Bibliography
 <details>
  <p>Something</p>
 </details>
 
-## Project Description
-### Project Introduction 
-### System Architecture
-### Assumptions and Constraints
+## <a name="description"></a> 2 Project Description
+
+### <a name="project-intro"></a> Project Introduction 
+### <a name="architecture"></a> System Architecture
+### <a name="constraint"></a> Assumptions and Constraints
 
 ## Interfaces
 
