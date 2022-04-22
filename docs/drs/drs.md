@@ -26,13 +26,17 @@ Version | Data | Authir(s)| Notes
     3. [Assumptions and Constraints](#constraints)
 3. [Interfaces](#interfacce)
 4. [Data Stores](#data)
-5. [Structural Models](#structural)
+5. [Use Cases](#uc)
+    1. [Use Case 1] (#uc1)
+    2. [Use Case 2] (#uc2)
+    3. ...
+7. [Structural Models](#structural)
     1. [Class Diagram](#cd)
-        1. [Class Description](#class-description)
-    2. [Object Diagram](#od)
-6. [Dynamic Models](#dynamic)
-    1. [User Requirement 1](#req1)
-    2. [User Requirement 2](#req2)
+        1. [Class Description](#cd-description)
+    3. [Object Diagram](#od)
+8. [Dynamic Models](#dynamic)
+    1. [User Requirement 1](#ur1)
+    2. [User Requirement 2](#ur2)
     3. .....
 
 
@@ -68,7 +72,6 @@ Version | Data | Authir(s)| Notes
 ### <a name="biblio"></a> 1.4 Bibliography
 <details> 
     <summary> Put a summary of the section
-        
     </summary>
     <p>This sub section should describe ...</p>
 </details>
@@ -76,21 +79,53 @@ Version | Data | Authir(s)| Notes
 ## <a name="description"></a> 2 Project Description
 
 ### <a name="project-intro"></a> Project Introduction 
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
+
+
 ### <a name="architecture"></a> System Architecture
+
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
+
 ### <a name="constraint"></a> Assumptions and Constraints
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
 
-## Interfaces
+## <a name="interfaces"></a>  Interfaces
+<details> 
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
 
-## Data Stores
+## <a name="data"></a>  Data Stores
 
-## Structural Models
-### Class Diagram
-#### Class Description
-### Object Diagram
+## <a name="uc"></a> Use Cases 
+### <a name="uc1"></a>  Use Case 1
+### <a name="uc2"></a>  Use Case 2
+### ....
 
-## Dynamic Models
-### User Requirement 1
-### User Requirement 2
+## <a name="structural"></a> Structural Models
+
+### <a name="cd"></a> Class Diagram
+
+#### <a name="cd-description"></a> Class Description
+
+### <a name="od"></a>  Object Diagram
+
+## <a name="dynamic"></a> Dynamic Models
+### <a name="ur1"></a> User Requirement 1
+### <a name="ur2"></a> User Requirement 2
 ### ....
 
 
