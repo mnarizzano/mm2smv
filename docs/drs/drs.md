@@ -87,9 +87,9 @@ Version | Data | Author(s)| Notes
 
 ### <a name="project-intro"></a> 2.1 Project Introduction 
 <details> 
-    <summary>  Describe at an high level what is the goal of the project and a possible solution
+    <summary> Goal of this project is to develop a translator from a mealy machine to a kripke structure in SMV format.
     </summary>
-    <p>This sub section should describe ...</p>
+    <p> Both MM and Kripke Structures are Finite State Machines. The main differences between them are two:  </p>
 </details>
 
 ### <a name="tech"></a> 2.2 Technologies used
