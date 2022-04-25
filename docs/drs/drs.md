@@ -1,17 +1,18 @@
-# Title of the project
+# MM2SMV CONVERTER: From a Mealy Machine to a (Nu)SMV model
 
 ## Design Requirement Specification Document
 
 DIBRIS – Università di Genova. Scuola Politecnica, Corso di Ingegneria del Software 80154
 
 
-<div align='right'> <b> Authors </b> <br> AA <br> BB  </div>
+<div align='right'> <b> Authors </b> <br>Massimo Narizzano </div>
 
 ### REVISION HISTORY
 
 Version | Data | Author(s)| Notes
 ---------|------|--------|------
-1 | XX/YY/ZZ | AA <br> BB | First Versionn of the document. Document Template
+1.0 |22/04/2022 | Massimo Narizzano | Created the template.
+1.1 |23/04/2022 | Massimo Narizzano | Updated the first two section with the desciptions. 
 
 ## Table of Content
 
@@ -47,28 +48,32 @@ Version | Data | Author(s)| Notes
     
 ### <a name="purpose"></a> 1.1 Purpose and Scope
 <details> 
-    <summary> The goal of this section is to describe the purpose of this document and intended audience  </summary>
-    <p>This sub section should describe ...</p>
+    <summary> This document gives a detailed description of the software architecture of the translator from a Mealy Machine to a NuSMV model </summary>
+<p> This document specifies the architecture as wel as the input and output format of the systems. It also displays some algorithm to translate mealy machines to NuSMV morels, use sequence or activity diagrams. The class diagrams show how the programming team would implement the specific module.
+    This document is intended for developers.
+    </p>
 </details>
 
 ### <a name="def"></a> 1.2 Definitions
 <details> 
-    <summary> Put a summary of the section
+    <summary> In this section are described some of the notions given for granted in the remaining of the document, as well as some acronyms used.
     </summary>
-    <p>This sub section should describe ...</p>
-    
-| First Header  | Second Header |
+       
+| Acronym  | Defonition |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Mealy Machine | Content Cell  |
+| MM | Content Cell  |
+| NuSMV  | Content Cell  |
+| SMV  | Content Cell  |
+| UML | Content Cell  |
+    
     
 </details>
 
 ### <a name="overview"></a> 1.3 Document Overview
 <details> 
-    <summary> Explain how is organized the document
-    </summary>
-    <p>This sub section should describe ...</p>
+    <summary> The remaining of the document is organized as follow: </summary>
+    <p> Section 2 gives a high level decrption of the project, the techologies used and the constraints; Section 3 gives a system architecture overview, where system should be divided in separated modules, with also the description of the system interfaces and inputs/outputs; each section after the section 3 is devoted, if any, to each module, i.e. a section for each module. In this case Section 4 describe through UML diagrams the first and unique module. It describe the static structure of the system using class diagram and object diagram to give an example. Moreover it also describe dynamic system behaviours </p>
 </details>
 
 ### <a name="biblio"></a> 1.4 Bibliography
