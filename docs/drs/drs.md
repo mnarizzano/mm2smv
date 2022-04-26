@@ -1,3 +1,4 @@
+
 # MM2SMV CONVERTER: From a Mealy Machine to a (Nu)SMV model
 
 ## Design Requirement Specification Document
@@ -159,8 +160,9 @@ specifications    </p>
 ### <a name="sd"></a>  4.1 Structural Diagrams
 <details> 
     <summary> Put a summary of the section
-    </summary>
-    <p>This sub section should describe ...</p>
+    </summary> 
+    <a> This sub section should describe ....</a>
+    
 </details>
 
 #### <a name="cd"></a>  4.1.1 Class diagram
@@ -168,6 +170,12 @@ specifications    </p>
     <summary> Put a summary of the section
     </summary>
     <p>This sub section should describe ...</p>
+        <img src="imgs/classdiagram.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+      
+        
+
 </details>
 
 ##### <a name="cd-description"></a>  4.1.1.1 Class Description
