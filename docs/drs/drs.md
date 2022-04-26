@@ -13,7 +13,7 @@ DIBRIS – Università di Genova. Scuola Politecnica, Corso di Ingegneria del So
 Version | Data | Author(s)| Notes
 ---------|------|--------|------
 1.0 |22/04/2022 | Massimo Narizzano | Created the template.
-1.1 |23/04/2022 | Massimo Narizzano | Updated the first two section with the desciptions. 
+1.1 |23/04/2022 | Massimo Narizzano | Updated the Introduction. 
 
 ## Table of Content
 
