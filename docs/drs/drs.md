@@ -144,7 +144,33 @@ specifications
 <details> 
     <summary> Put a summary of the section
     </summary>
-    <p>This sub section should describe ...</p>
+    
+    Three different types of inputs 
+    
+    - Mealy Machine : should be provided as a file following the <a href="https://graphviz.org/doc/info/lang.html" target="_blank"> graphviz dot language</a>
+    As an example
+    
+    digraph {
+   
+    init [style = invis]
+    
+    S0
+    
+    S1
+    
+    init -> S0
+    
+    S0 -> S1 [label="0/0"]
+    
+    S1 -> S0 [label="1/1"]
+    
+    S0 -> S0 [label="1/1"]
+ 
+    S1 -> S1 [label="0/0"]
+
+}
+    
+    
 </details>
 
 #### <a name="outputs"></a>  3.3.2 System Ouputs
