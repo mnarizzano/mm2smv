@@ -144,10 +144,11 @@ specifications
 <details> 
     <summary> Put a summary of the section
     </summary>
-    
+    <p>
     Three different types of inputs 
     
     - Mealy Machine : should be provided as a file following the <a href="https://graphviz.org/doc/info/lang.html" target="_blank"> graphviz dot language</a>
+    </p>
     As an example
     
     digraph {
@@ -170,14 +171,23 @@ specifications
 
 }
     
+    <img src="imgs/mm.png" alt="class Diagram" style="float: left; margin-right: 10px;" />
+
+ - Input Signals : should be formatted as a list of names comma separated, for example : a,b,c,f4,f_5,... 
     
+ - Output Signals : should be formatted as a list of names comma separated, for example : a,b,c,f4,f_5,... 
+    
+ We can not have a signal names that is in Input Signals list and Output signals list at the same time.
+       
 </details>
 
 #### <a name="outputs"></a>  3.3.2 System Ouputs
 <details> 
     <summary> Put a summary of the section
     </summary>
-    <p>This sub section should describe ...</p>
+    <p>The output of the system must be a file formatted with <a href="https://nusmv.fbk.eu/NuSMV/userman/v21/nusmv_3.html" target="_blank"> NuSMV format</a></p>
+    
+    
 </details>
 
 ## <a name="sys-module-1"></a>  4 System Module 1
