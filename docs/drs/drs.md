@@ -90,15 +90,17 @@ Version | Data | Author(s)| Notes
 <details> 
     <summary> Goal of this project is to develop a translator from a mealy machine to a kripke structure in SMV format.
     </summary>
-    <p> Both MM and Kripke Structures are Finite State Machines. The main differences between them are two:  </p>
+    <p> Both MM and Kripke Structures are Finite State Machines. The main differences between them are ..... </p>
 </details>
 
 ### <a name="tech"></a> 2.2 Technologies used
 
-<details> 
-    <summary> Description of the overall architecture. </summary>
-    <p>Graphical representation of the system architecture.  May be composed by multiple diagrams depending on the differences in the environment
-specifications    </p>
+<details>     
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
+
 </details>
 
 ### <a name="constraints"></a> 2.3 Assumption and Constraint 
@@ -117,9 +119,11 @@ specifications    </p>
 
 ### <a name="architecture"></a>  3.1 System Architecture
 <details> 
-    <summary> Put a summary of the section
-    </summary>
-    <p>This sub section should describe ...</p>
+    <summary> Description of the overall architecture. </summary>
+    <p>
+        Graphical representation of the system architecture.  May be composed by multiple diagrams depending on the differences in the environment
+specifications    
+    </p>
 </details>
 
 ### <a name="interfaces"></a>  3.2 System Interfaces
@@ -161,7 +165,7 @@ specifications    </p>
 <details> 
     <summary> Put a summary of the section
     </summary> 
-    <a> This sub section should describe ....</a>
+    <p> This sub section should describe ....</p>
     
 </details>
 
@@ -170,12 +174,7 @@ specifications    </p>
     <summary> Put a summary of the section
     </summary>
     <p>This sub section should describe ...</p>
-        <img src="imgs/classdiagram.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
-      
-        
-
+    <img src="imgs/classdiagram.png" alt="class Diagram" style="float: left; margin-right: 10px;" />
 </details>
 
 ##### <a name="cd-description"></a>  4.1.1.1 Class Description
