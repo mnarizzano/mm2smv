@@ -1,3 +1,4 @@
+
 # MM2SMV CONVERTER: From a Mealy Machine to a (Nu)SMV model
 
 ## Design Requirement Specification Document
@@ -12,7 +13,7 @@ DIBRIS – Università di Genova. Scuola Politecnica, Corso di Ingegneria del So
 Version | Data | Author(s)| Notes
 ---------|------|--------|------
 1.0 |22/04/2022 | Massimo Narizzano | Created the template.
-1.1 |23/04/2022 | Massimo Narizzano | Updated the first two section with the desciptions. 
+1.1 |23/04/2022 | Massimo Narizzano | Updated the Introduction. 
 
 ## Table of Content
 
@@ -89,15 +90,17 @@ Version | Data | Author(s)| Notes
 <details> 
     <summary> Goal of this project is to develop a translator from a mealy machine to a kripke structure in SMV format.
     </summary>
-    <p> Both MM and Kripke Structures are Finite State Machines. The main differences between them are two:  </p>
+    <p> Both MM and Kripke Structures are Finite State Machines. The main differences between them are ..... </p>
 </details>
 
 ### <a name="tech"></a> 2.2 Technologies used
 
-<details> 
-    <summary> Description of the overall architecture. </summary>
-    <p>Graphical representation of the system architecture.  May be composed by multiple diagrams depending on the differences in the environment
-specifications    </p>
+<details>     
+    <summary> Put a summary of the section
+    </summary>
+    <p>This sub section should describe ...</p>
+</details>
+
 </details>
 
 ### <a name="constraints"></a> 2.3 Assumption and Constraint 
@@ -116,9 +119,11 @@ specifications    </p>
 
 ### <a name="architecture"></a>  3.1 System Architecture
 <details> 
-    <summary> Put a summary of the section
-    </summary>
-    <p>This sub section should describe ...</p>
+    <summary> Description of the overall architecture. </summary>
+    <p>
+        Graphical representation of the system architecture.  May be composed by multiple diagrams depending on the differences in the environment
+specifications    
+    </p>
 </details>
 
 ### <a name="interfaces"></a>  3.2 System Interfaces
@@ -159,8 +164,9 @@ specifications    </p>
 ### <a name="sd"></a>  4.1 Structural Diagrams
 <details> 
     <summary> Put a summary of the section
-    </summary>
-    <p>This sub section should describe ...</p>
+    </summary> 
+    <p> This sub section should describe ....</p>
+    
 </details>
 
 #### <a name="cd"></a>  4.1.1 Class diagram
@@ -168,6 +174,7 @@ specifications    </p>
     <summary> Put a summary of the section
     </summary>
     <p>This sub section should describe ...</p>
+    <img src="imgs/classdiagram.png" alt="class Diagram" style="float: left; margin-right: 10px;" />
 </details>
 
 ##### <a name="cd-description"></a>  4.1.1.1 Class Description
