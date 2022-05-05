@@ -121,16 +121,24 @@ Version | Data | Author(s)| Notes
 <details> 
     <summary> Description of the overall architecture. </summary>
     <p>
-        Graphical representation of the system architecture.  May be composed by multiple diagrams depending on the differences in the environment
-specifications    
+        Graphical representation of the system architecture.  
+    <img src="imgs/system-architecture.png" alt="System Architecture" style="float: left; margin-right: 10px;" />   
     </p>
 </details>
 
 ### <a name="interfaces"></a>  3.2 System Interfaces
 <details> 
-    <summary> Put a summary of the section
+    <summary> The system should provide a command line interface
     </summary>
-    <p>This sub section should describe ...</p>
+    <p> The command line is composed by the name of the system and either a list of parameters or a config files containing the same information.
+    The config file should be a formatted text file (i.e. json). Either the config file and the parameter list should contain the following informations:
+        <ul>
+            <li> A relative path to the Mealy Machine file</li> 
+            <li> A list of inputs signal names  </li> 
+            <li> A list of outputs signal names </li>
+            <li> A relative path to NuSMV file, i.e. where the system should write the output NuSMV file</li>
+    </ul>
+    </p>
 </details>
 
 ### <a name="data"></a>  3.3 System Data
@@ -142,14 +150,16 @@ specifications
 
 #### <a name="inputs"></a>  3.3.1 System Inputs
 <details> 
-    <summary> Put a summary of the section
+    <summary>Here we are going to define the inputs of the system.
     </summary>
     <p>
-    Three different types of inputs 
-    
-    - Mealy Machine : should be provided as a file following the <a href="https://graphviz.org/doc/info/lang.html" target="_blank"> graphviz dot language</a>
+  The system can get as input three different types of data 
+    - Mealy Machine : should be provided as a file following the <a href="https://graphviz.org/doc/info/lang.html"> graphviz</a> dot language.
     </p>
-    As an example
+    <p> As an example of Mealy Machine as digraph format of the mealy machine 
+    <img src="imgs/mm.png" alt="class Diagram" style="float: left; margin-right: 10px;" /> 
+    </p>
+    can be described by the following  text file:
     
     digraph {
    
@@ -170,15 +180,14 @@ specifications
     S1 -> S1 [label="0/0"]
 
 }
-    
-    <img src="imgs/mm.png" alt="class Diagram" style="float: left; margin-right: 10px;" />
+
 
  - Input Signals : should be formatted as a list of names comma separated, for example : a,b,c,f4,f_5,... 
     
  - Output Signals : should be formatted as a list of names comma separated, for example : a,b,c,f4,f_5,... 
     
  We can not have a signal names that is in Input Signals list and Output signals list at the same time.
-       
+</p>       
 </details>
 
 #### <a name="outputs"></a>  3.3.2 System Ouputs
@@ -210,7 +219,7 @@ specifications
     <summary> Put a summary of the section
     </summary>
     <p>This sub section should describe ...</p>
-    <img src="imgs/classdiagram.png" alt="class Diagram" style="float: left; margin-right: 10px;" />
+    <img src="imgs/classdiagram2.png" alt="class Diagram" style="float: left; margin-right: 10px;" />
 </details>
 
 ##### <a name="cd-description"></a>  4.1.1.1 Class Description
@@ -225,6 +234,7 @@ specifications
     <summary> Put a summary of the section
     </summary>
     <p>This sub section should describe ...</p>
+    <img src="imgs/objectDiagram.png" alt="class Diagram" style="float: left; margin-right: 10px;" />
 </details>
 
 #### <a name="dm"></a>  4.2 Dynamic Models
