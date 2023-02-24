@@ -105,9 +105,8 @@ Version | Data | Author(s)| Notes
 
 ### <a name="constraints"></a> 2.3 Assumption and Constraint 
 <details> 
-    <summary> Put a summary of the section
+    <summary> We have two constraints to satisfy. The former is to create .json file to retrive data and read them and the latter is to verify the correctness of the test files with the mm2pml translating code.
     </summary>
-    <p>This sub section should describe ...</p>
 </details>
 
 ## <a name="system-overview"></a>  3 System Overview
